@@ -98,6 +98,7 @@ export default function Home() {
         </section>
 
         <section className={styles.feature}>
+          <div className={styles.techStack}>Tech stack</div>
           <div className={styles.featureContent}>
             <div className={styles.row}>
               <div className={styles.rowImg}>
@@ -179,22 +180,17 @@ export default function Home() {
               Web and Cloud <br />
               development
             </h5>
-            <h1>
-              using Microsoft Azure
-              <br /> and AWS.
-            </h1>
+            <h1>using Microsoft Azure and AWS.</h1>
             <p>
               With knowledge of Amazon web services Microsoft Azure and Google
-              cloud services, i leverage
-              <br /> the power of the cloud to manage and secure my clients
-              infrastructure.
+              cloud services, i leverage the power of the cloud to manage and
+              secure my clients infrastructure.
               <br />
               <br />
               Using the power of Node.js, I develop scalable and efficient
-              server-side applications.
-              <br /> Using React and Next.js, I build robust and responsive web
-              applications, providing seamless user
-              <br /> experiences across various devices.
+              server-side applications. Using React and Next.js, I build robust
+              and responsive web applications, providing seamless user
+              experiences across various devices.
             </p>
             <a href="/about-us" className={styles.webDevBtn}>
               Contact us
@@ -235,6 +231,10 @@ export default function Home() {
         </section>
 
         <section className={styles.webAppsSection}>
+          <div className={styles.webAppsImg}>
+            <img src="/laptop.jpg" alt="laptop image" />
+          </div>
+
           <div className={styles.webAppsText}>
             <h5>
               Google UX designer
@@ -242,25 +242,26 @@ export default function Home() {
             </h5>
             <h1>
               We design and develop custom
-              <br /> web apps
+              <br /> web apps.
             </h1>
             <p>
               Our approach to web design is characterized by a dynamic fusion of
-              cutting-edge tools and technologies to craft responsive websites
-              and web applications that stand out in the digital landscape.
+              cutting-edge tools
+              <br /> and technologies to craft responsive websites and web
+              applications that stand out in the
+              <br /> digital landscape.
               <br />
               <br />
               At the core of our design process, we harness the power of two
-              industry-leading design platforms: Figma and Adobe XD. These
-              versatile tools allow us to conceptualize, prototype, and refine
-              our designs with precision and efficiency.
+              industry-leading
+              <br /> design platforms: Figma and Adobe XD. These versatile tools
+              allow us to conceptualize,
+              <br /> prototype, and refine our designs with precision and
+              efficiency.
             </p>
             <a href="/about-us" className={styles.webAppsBtn}>
               read more
             </a>
-          </div>
-          <div className={styles.webAppsImg}>
-            <img src="/laptop.jpg" alt="laptop image" />
           </div>
         </section>
 
