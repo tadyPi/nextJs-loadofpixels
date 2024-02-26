@@ -84,21 +84,23 @@ export default function Home() {
             </h1>
             <p className={styles.homePara}>
               I specialize in utilizing a range of technologies to create
-              dynamic and engaging websites.
+              dynamic and engaging
+              <br className="break-for-mobile" /> websites.
               <br />
               <br />
               Proficient in JavaScript HTML and CSS, I employ these foundational
-              languages to craft interactive
+              languages
+              <br className="break-for-mobile" /> to craft interactive
               <br /> and visually appealing user interfaces.
             </p>
-            <a href="/contact.html" className={styles.homeButton}>
+            <a href="/about-us" className={styles.homeButton}>
               Contact us
             </a>
           </div>
         </section>
 
+        <div className={styles.techStack}>Tech stack</div>
         <section className={styles.feature}>
-          <div className={styles.techStack}>Tech stack</div>
           <div className={styles.featureContent}>
             <div className={styles.row}>
               <div className={styles.rowImg}>
@@ -180,17 +182,23 @@ export default function Home() {
               Web and Cloud <br />
               development
             </h5>
-            <h1>using Microsoft Azure and AWS.</h1>
+            <h1>
+              using Microsoft Azure
+              <br /> and AWS.
+            </h1>
             <p>
-              With knowledge of Amazon web services Microsoft Azure and Google
-              cloud services, i leverage the power of the cloud to manage and
-              secure my clients infrastructure.
+              With knowledge of Amazon web services and Microsoft Azure, i
+              leverage the
+              <br className="break-for-mobile" /> power of the cloud to manage
+              and secure my clients infrastructure.
               <br />
               <br />
-              Using the power of Node.js, I develop scalable and efficient
-              server-side applications. Using React and Next.js, I build robust
-              and responsive web applications, providing seamless user
-              experiences across various devices.
+              Using the power of Node.js I develop scalable and efficient
+              server-side applications.
+              <br className="break-for-mobile" /> Using React and Next.js, I
+              build robust and responsive web applications, providing
+              <br className="break-for-mobile" /> seamless user experiences
+              across various devices.
             </p>
             <a href="/about-us" className={styles.webDevBtn}>
               Contact us
@@ -241,23 +249,25 @@ export default function Home() {
               <br /> and web design
             </h5>
             <h1>
-              We design and develop custom
+              We design and
+              <br /> develop custom
               <br /> web apps.
             </h1>
             <p>
               Our approach to web design is characterized by a dynamic fusion of
-              cutting-edge tools
-              <br /> and technologies to craft responsive websites and web
-              applications that stand out in the
-              <br /> digital landscape.
+              cutting-edge
+              <br className="break-for-mobile" /> tools and technologies to
+              craft responsive websites and web applications that
+              <br className="break-for-mobile" /> stand out in the digital
+              landscape.
               <br />
               <br />
               At the core of our design process, we harness the power of two
               industry-leading
               <br /> design platforms: Figma and Adobe XD. These versatile tools
-              allow us to conceptualize,
-              <br /> prototype, and refine our designs with precision and
-              efficiency.
+              allow us to
+              <br className="break-for-mobile" /> conceptualize, prototype, and
+              refine our designs with precision and efficiency.
             </p>
             <a href="/about-us" className={styles.webAppsBtn}>
               read more

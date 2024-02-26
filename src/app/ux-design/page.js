@@ -91,7 +91,7 @@ export default function uxDesign() {
             </a>
           </div>
         </section>
-
+        <div className={styles.techStack}>Tech stack</div>
         <section className={styles.feature}>
           <div className={styles.featureContent}>
             <div className={styles.row}>

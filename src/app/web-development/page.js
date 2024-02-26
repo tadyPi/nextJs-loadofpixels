@@ -82,12 +82,14 @@ export default function webDevelopment() {
             </h1>
             <p className={styles.homePara}>
               Leveraging the power of Node.js, I develop scalable and efficient
-              server-side applications.
+              server-side
+              <br className="break-for-mobile" /> applications.
               <br />
               <br />
               Proficient in JavaScript HTML and CSS, I employ these foundational
-              languages to craft interactive
-              <br /> and visually appealing user interfaces.
+              languages
+              <br className="break-for-mobile" /> to craft interactive and
+              visually appealing user interfaces.
             </p>
             <a href="/contact.html" className={styles.homeButton}>
               Contact us
@@ -95,6 +97,7 @@ export default function webDevelopment() {
           </div>
         </section>
 
+        <div className={styles.techStack}>Tech stack</div>
         <section className={styles.feature}>
           <div className={styles.featureContent}>
             <div className={styles.row}>
@@ -180,8 +183,9 @@ export default function webDevelopment() {
             <h1>using Microsoft Azure and AWS.</h1>
             <p>
               With knowledge of Amazon web services Microsoft Azure and Google
-              cloud services, i leverage the power of the cloud to manage and
-              secure my clients infrastructure.
+              cloud services, i leverage
+              <br className="break-for-mobile" /> the power of the cloud to
+              manage and secure my clients infrastructure.
               <br />
               <br />
               Using the power of Node.js, I develop scalable and efficient

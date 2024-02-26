@@ -212,6 +212,31 @@
   color: #fcfdfd;
 }
 
+.homeText h1 {
+  background: linear-gradient(to right,
+      rgb(5, 119, 139),
+      rgb(239, 94, 213),
+      rgb(63, 51, 224),
+      rgb(2, 70, 74),
+      rgb(234, 39, 124),
+      rgb(230, 180, 73),
+      rgb(5, 119, 139));
+  background-clip: text;
+  color: transparent;
+  background-size: 200% auto;
+  animation: gradientAnimation 5s linear infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 200% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .homePara {
   font-size: 1rem;
   font-family: 'Open Sans', sans-serif;
@@ -246,6 +271,16 @@
 }
 
 /* Feature section */
+.techStack {
+  position: relative;
+  width: 100%;
+  top: 3.5rem;
+  left: 42%;
+  font-size: 3rem;
+  color: #b1b5b5;
+  /* transform: translateX(-50%); */
+}
+
 .featureContent {
   position: relative;
   top: 8rem;
@@ -277,13 +312,13 @@
 }
 
 .featureContent h4 {
-  color: #435252;
+  color: rgb(165, 196, 148);
   position: relative;
   left: -16px;
 }
 
 .featureContent h4:hover {
-  color: #bbd7d7;
+  color: #a3cfcf;
 }
 
 .rowImg img:hover {

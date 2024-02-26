@@ -172,11 +172,23 @@
 }
 
 .menu {
-  color: #fcfdfd;
-  font-size: 30px;
   cursor: pointer;
-  display: none;
+  /* display: none; */
   z-index: 10001;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-image: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='rgba(255,255,255,1)'%3E%3Cpath d='M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z'%3E%3C/path%3E%3C/svg%3E");
+  color: #fcfdfd;
+  height: 30px;
+  width: 30px;
+  margin-left: 0.5rem;
+  left: 12px;
+  margin-bottom: 27px;
+  display: none;
 }
 
 
@@ -211,6 +223,32 @@
   line-height: 1.2;
   margin-bottom: 20px;
   color: #fcfdfd;
+}
+
+.homeText h1 {
+  /* font-size: 4rem; */
+  background: linear-gradient(to right,
+      rgb(5, 119, 139),
+      rgb(239, 94, 213),
+      rgb(63, 51, 224),
+      rgb(2, 70, 74),
+      rgb(234, 39, 124),
+      rgb(230, 180, 73),
+      rgb(5, 119, 139));
+  background-clip: text;
+  color: transparent;
+  background-size: 200% auto;
+  animation: gradientAnimation 5s linear infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 200% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .homePara {
@@ -282,15 +320,15 @@
 .techStack {
   position: relative;
   width: 100%;
-  top: 4rem;
-  left: 43%;
-  font: 2.5rem;
-
-  color: #253838;
+  top: 3.5rem;
+  left: 42%;
+  font-size: 3rem;
+  color: #b1b5b5;
+  /* transform: translateX(-50%); */
 }
 
 .featureContent h4 {
-  color: rgb(107, 108, 108);
+  color: rgb(165, 196, 148);
   position: relative;
   right: 2.5rem;
 }
@@ -329,20 +367,21 @@
 .developerText {
   position: relative;
   margin-right: 2rem;
-  /* top: 2.8rem; */
+  /* top: 1rem; */
+  top: 2.8rem;
 }
 
 
 .developerText h5 {
   font-size: 22px;
   font-weight: 600;
-  color: #fcfd;
   /* text-transform: uppercase; */
   letter-spacing: 6px;
   margin-bottom: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
+  color: #fcfd;
 }
 
 .developerText h1 {
@@ -709,8 +748,21 @@
   top: 37rem;
 }
 
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {}
 
-/* Mobile */
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+
+/* Mobile screen sizes smaller than */
 @media (max-width: 700px) {
   .header {
     position: fixed;
@@ -786,12 +838,30 @@
 
   .menu {
     display: block;
+    cursor: pointer;
+    /* display: none; */
+    z-index: 10001;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-image: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='rgba(255,255,255,1)'%3E%3Cpath d='M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z'%3E%3C/path%3E%3C/svg%3E");
+    color: #fcfdfd;
+    height: 30px;
+    width: 30px;
+    margin-left: 0.5rem;
+    left: 12px;
+    margin-bottom: 27px;
+    /* display: none; */
   }
 
   .home {
     padding: 0;
     position: relative;
     margin: 0;
+    margin-top: 2rem;
     left: 12px;
     /* top: 1%; */
   }
@@ -811,7 +881,7 @@
 
   .homePara {
     margin-top: 2rem;
-    font-size: 15px;
+    font-size: 0.9rem;
   }
 
   .homeButton {
@@ -822,14 +892,21 @@
     border-radius: 3px;
   }
 
+  .feature {
+    position: relative;
+    top: 2rem;
+    /* margin: 1rem; */
+    left: 0;
+  }
+
   .techStack {
     position: relative;
-    width: 100%;
-    top: 5.5rem;
-    left: 43%;
-    font: 1.5rem;
+    /* width: 100%; */
+    top: 8.5rem;
+    left: 270px;
+    font-size: 1.5rem;
 
-    color: #fcfdfd;
+    color: #b1b5b5;
   }
 
   .featureContent {
@@ -838,11 +915,13 @@
     gap: 2rem;
     align-items: center;
     margin: 1rem;
+    left: 0;
   }
 
   .featureContent h4 {
     position: relative;
-    left: 5%;
+    left: 2.5%;
+    text-align: start;
 
   }
 
@@ -867,8 +946,8 @@
     padding: 0;
     position: relative;
     margin: 0;
-    left: -146px;
-    top: 8rem; 
+    left: -153px;
+    top: 7rem;
   }
 
   .developerText {
@@ -886,7 +965,7 @@
 
   .developerText p {
     margin-top: 2rem;
-    font-size: 15px;
+    font-size: 0.9rem;
   }
 
   .developerButton {
@@ -901,10 +980,11 @@
     position: relative;
     top: 2rem;
   }
-  
+
   .tourContent {
     position: relative;
     left: -0.3rem;
+    bottom: 4rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     align-items: center;
@@ -912,11 +992,17 @@
     /* margin-top: 20rem; */
     margin-right: 2rem;
   }
-  
+
+  .centerText {
+    position: relative;
+    top: 11rem;
+    margin: 0;
+  }
+
   .box {
     position: relative;
   }
-  
+
   .box img {
     border-radius: 3px;
     width: 100%;
@@ -928,7 +1014,7 @@
     will-change: filter;
     display: block;
   }
-  
+
   .box h6 {
     position: absolute;
     left: 25px;
@@ -937,7 +1023,7 @@
     font-weight: 500;
     color: #fcfdfd;
   }
-  
+
   .box h4 {
     position: absolute;
     color: #fcfdfd;
@@ -946,18 +1032,18 @@
     font-size: 20px;
     font-weight: 700;
   }
-  
+
   .box img:hover {
     filter: brightness(90%) hue-rotate(50deg);
     transform: scale(1.04);
     cursor: pointer;
   }
-  
+
   .center-btn {
     text-align: center;
     margin-top: 4rem;
   }
-  
+
   .tourBtn {
     position: relative;
     display: inline-block;
@@ -973,7 +1059,7 @@
     cursor: pointer;
     left: 0%;
   }
-  
+
   .tourBtn:hover {
     transform: translateX(10px);
     border: 2px solid #fcfdfd;
@@ -981,30 +1067,42 @@
     color: #1a1a1a;
   }
 
+
   .webAppsSection {
-    width: 100%;
+    /* width: 100%; */
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    top: 19rem;
+    top: -3rem;
     /* gap: 9rem; */
+    padding: 0;
+    position: relative;
+    margin: 0;
+    margin-top: 2rem;
+    left: -43px;
   }
-  
+
   .webAppsImg img {
     position: relative;
+    display: none;
     width: 90%;
     height: 600px;
     /* border-radius: 3px; */
     /* margin-left: 13%; */
     margin-left: 3%;
   }
-  
+
   .webAppsText {
+    /* position: relative;
+    margin-left: 2rem; */
     position: relative;
-    margin-left: 2rem;
+    left: 16px;
+    top: 11%;
+    margin-top: 2.3rem;
+    white-space: nowrap;
   }
-  
+
   .webAppsText h5 {
     font-size: 22px;
     font-weight: 600;
@@ -1016,40 +1114,48 @@
     font-weight: 500;
     font-style: normal;
   }
-  
+
   .webAppsText h1 {
-    font-size: 4rem;
+    /* font-size: 4rem; */
     font-weight: 800;
     list-style: 1.2;
     margin-bottom: 25px;
     color: #fcfdfd;
+    margin-top: 1rem;
+    font-size: 3rem;
   }
-  
+
   .webAppsText p {
-    font-size: 1rem;
+    /* font-size: 1rem; */
     font-weight: 500;
     line-height: 30px;
     color: #fcfdfd;
     margin-bottom: 35px;
     font-family: 'Open Sans', sans-serif;
+    /* margin-top: 2rem; */
+    font-size: 0.9rem;
   }
-  
+
   .webAppsBtn {
     position: relative;
     display: inline-block;
-    padding: 13px 40px;
+    /* padding: 13px 40px; */
     background: transparent;
     /* background: var(--bg-color); */
     color: #fcfdfd;
-    font-size: 15px;
+    /* font-size: 15px; */
     font-weight: 600;
     border: 2px solid #fcfdfd;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     transition: all 0.5s ease;
     cursor: pointer;
     left: 0%;
+    padding: 13px 20px;
+    font-size: 14px;
+    left: 80%;
+    border-radius: 3px;
   }
-  
+
   .webAppsBtn:hover {
     transform: translateX(10px);
     border: 2px solid #fcfdfd;
@@ -1057,46 +1163,136 @@
     color: #1a1a1a;
   }
 
-  .services-content {
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    gap: 2rem;
-  }
-
   .box h6 {
-    font-size: 16px;
+    font-size: 6px;
   }
 
   .box h4 {
     font-size: 18px;
   }
 
-  .newsletter-content {
+  .newsletterContent {
     grid-template-columns: 1fr;
     gap: 2rem;
+    left: -10px;
+    top: 6rem;
   }
 
-  .newsletter-text h2 {
-    font-size: 4rem;
+  .newsletterText h2 {
+    font-size: 2rem;
   }
 
-  .newsletter-text p {
+  .newsletterText p {
     font-size: 0.9rem;
   }
 
-  .newsletter-content form {
+  .newsletterContent form {
     grid-template-columns: 1fr;
+  }
+
+  .footer {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 2rem;
+    left: 32px;
+    top: 13rem;
+  }
+
+  .servicesContent {
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 2rem;
+
+  }
+
+  .copyright {
+    position: relative;
+    top: 16rem;
   }
 }
 
-/* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {}
+/* Mobile screen sizes smaller than */
+@media (max-width: 525px) {
 
-@keyframes rotate {
-  from {
-    transform: rotate(360deg);
+  .logo {
+    font-size: 30px;
+    white-space: nowrap;
+    position: relative;
+    color: #e7e7ec;
+    font-weight: 700;
+    width: 300px;
+    left: 4%;
+    font-family: Open Sans, sans-serif;
   }
 
-  to {
-    transform: rotate(0deg);
+  .followUs {
+    position: relative;
+    left: 2px;
+    font-size: 8px;
+
+  }
+
+  .socials {
+    position: relative;
+    margin-left: 25px;
+    /* right: 32px; */
+  }
+
+  .iconTop1 {
+    position: relative;
+    left: 16px;
+    width: 30px;
+  }
+
+  .iconTop2 {
+    position: relative;
+    left: 16px;
+    width: 30px;
+  }
+
+  .iconTop3 {
+    position: relative;
+    left: 16px;
+    width: 30px;
+  }
+
+  .home {
+    padding: 0;
+    position: relative;
+    margin: 0;
+    margin-top: 2rem;
+    left: 0;
+    /* top: 1%; */
+  }
+
+  .homeText {
+    position: relative;
+    left: 16px;
+    top: 11%;
+    margin-top: 2.3rem;
+    white-space: nowrap;
+  }
+
+  .homeText h5 {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+  }
+
+  .homeText h1 {
+    margin-top: 1rem;
+    font-size: 2.5rem;
+  }
+
+  .homePara {
+    margin-top: 2rem;
+    font-size: 14px;
+  }
+
+  .homeButton {
+    position: relative;
+    padding: 7px 10px;
+    font-size: 14px;
+    left: 80%;
+    border-radius: 3px;
   }
 }
