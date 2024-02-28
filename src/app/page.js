@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/Icon-busta.png" type="image/x-icon" />
         <link
           rel="stylesheet"
@@ -84,14 +85,12 @@ export default function Home() {
             </h1>
             <p className={styles.homePara}>
               I specialize in utilizing a range of technologies to create
-              dynamic and engaging
-              <br className="break-for-mobile" /> websites.
+              dynamic and engaging websites.
               <br />
               <br />
               Proficient in JavaScript HTML and CSS, I employ these foundational
-              languages
-              <br className="break-for-mobile" /> to craft interactive
-              <br /> and visually appealing user interfaces.
+              languages to craft interactive and visually appealing user
+              interfaces.
             </p>
             <a href="/about-us" className={styles.homeButton}>
               Contact us
@@ -169,6 +168,14 @@ export default function Home() {
           </div>
         </section>
 
+        <div className={styles.firstPicture}>
+          <img
+            src="/cloud.jpg"
+            alt="cloud image"
+            style={{ width: "100%", height: "328px" }}
+          />
+        </div>
+
         <section className={styles.developerSection}>
           <div className={styles.developerImg}>
             <img
@@ -188,9 +195,8 @@ export default function Home() {
             </h1>
             <p>
               With knowledge of Amazon web services and Microsoft Azure, i
-              leverage the
-              <br className="break-for-mobile" /> power of the cloud to manage
-              and secure my clients infrastructure.
+              leverage the power of the cloud to manage and secure my clients
+              infrastructure.
               <br />
               <br />
               Using the power of Node.js I develop scalable and efficient
