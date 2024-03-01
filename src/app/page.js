@@ -168,7 +168,7 @@ export default function Home() {
           </div>
         </section>
 
-        <div className={styles.firstPicture}>
+        <div className={styles.firstImage}>
           <img
             src="/cloud.jpg"
             alt="cloud image"
@@ -200,11 +200,9 @@ export default function Home() {
               <br />
               <br />
               Using the power of Node.js I develop scalable and efficient
-              server-side applications.
-              <br className="break-for-mobile" /> Using React and Next.js, I
-              build robust and responsive web applications, providing
-              <br className="break-for-mobile" /> seamless user experiences
-              across various devices.
+              server-side applications. Using React and Next.js, I build robust
+              and responsive web applications, providing seamless user
+              experiences across various devices.
             </p>
             <a href="/about-us" className={styles.webDevBtn}>
               Contact us
@@ -244,6 +242,14 @@ export default function Home() {
           </div>
         </section>
 
+        <div className={styles.firstImage2}>
+          <img
+            src="/cloud.jpg"
+            alt="cloud image"
+            style={{ width: "100%", height: "328px" }}
+          />
+        </div>
+
         <section className={styles.webAppsSection}>
           <div className={styles.webAppsImg}>
             <img src="/laptop.jpg" alt="laptop image" />
@@ -261,19 +267,15 @@ export default function Home() {
             </h1>
             <p>
               Our approach to web design is characterized by a dynamic fusion of
-              cutting-edge
-              <br className="break-for-mobile" /> tools and technologies to
-              craft responsive websites and web applications that
-              <br className="break-for-mobile" /> stand out in the digital
-              landscape.
+              cutting-edge tools and technologies to craft responsive websites
+              and web applications that stand out in the digital landscape.
               <br />
               <br />
               At the core of our design process, we harness the power of two
               industry-leading
               <br /> design platforms: Figma and Adobe XD. These versatile tools
-              allow us to
-              <br className="break-for-mobile" /> conceptualize, prototype, and
-              refine our designs with precision and efficiency.
+              allow us to conceptualize, prototype, and refine our designs with
+              precision and efficiency.
             </p>
             <a href="/about-us" className={styles.webAppsBtn}>
               read more
