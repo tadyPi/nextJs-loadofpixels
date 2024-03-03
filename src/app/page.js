@@ -254,7 +254,6 @@ export default function Home() {
           <div className={styles.webAppsImg}>
             <img src="/laptop.jpg" alt="laptop image" />
           </div>
-
           <div className={styles.webAppsText}>
             <h5>
               Google UX designer
@@ -272,10 +271,9 @@ export default function Home() {
               <br />
               <br />
               At the core of our design process, we harness the power of two
-              industry-leading
-              <br /> design platforms: Figma and Adobe XD. These versatile tools
-              allow us to conceptualize, prototype, and refine our designs with
-              precision and efficiency.
+              industry-leading design platforms: Figma and Adobe XD. These
+              versatile tools allow us to conceptualize, prototype, and refine
+              our designs with precision and efficiency.
             </p>
             <a href="/about-us" className={styles.webAppsBtn}>
               read more
