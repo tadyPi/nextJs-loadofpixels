@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import styles from "./page.module.css";
 import Head from "next/head";
 
@@ -7,7 +7,8 @@ export default function Home() {
     <div>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/Icon-busta.png" type="image/x-icon" />
+        {/* <link rel="shortcut icon" href="/Icon-busta.png" /> */}
+        <link rel="icon" href="/app/Icon-busta.png" />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.0.7/css/boxicons.min.css"
@@ -219,7 +220,7 @@ export default function Home() {
             <div className={styles.box}>
               <img src="/server.jpg" alt="Virtual-server" />
               <h6>Cloud services</h6>
-              <h4>AWS Azure GCP</h4>
+              <h4>AWS and Microsoft Azure</h4>
             </div>
 
             <div className={styles.box}>
