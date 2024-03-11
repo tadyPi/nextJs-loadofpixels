@@ -743,22 +743,105 @@
   top: 37rem;
 }
 
+
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {}
-
-/* @keyframes rotate {
-  from {
-    transform: rotate(360deg);
+@media (min-width: 701px) and (max-width: 1120px) {
+  .main {
+    display: flex;
   }
 
-  to {
-    transform: rotate(0deg);
+  .header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100vw;
+    height: 80px;
+    background: transparent;
+    /* padding: 27px 17%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+    background: transparent;
+    backdrop-filter: blur(35px);
+    border-bottom: solid 1px #5c5f5f;
   }
-} */
+
+  .logo {
+    position: relative;
+    font-size: 24px;
+    white-space: nowrap;
+    left: 1rem;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 1rem;
+    white-space: nowrap;
+    gap: 16px;
+    margin: 0;
+  }
+
+  .navbar a {
+    position: relative;
+    color: #fcfdfd;
+    font-size: 1rem;
+    margin-left: 0;
+    left: 5rem;
+  }
+
+  .socials {
+    position: relative;
+    left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+  }
+
+  .socials a:first-child {
+    position: relative;
+    color: #fcfdfd;
+    font-size: 1rem;
+    margin-left: 2rem;
+  }
+
+  .socials a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-image: no-repeat;
+    height: 45px;
+    width: 45px;
+    /* color: #874213; */
+    /* background: #202020; */
+    font-size: 20px;
+    margin-right: 8px;
+    transition: transform 0.6s;
+    /* border: 1px solid #fcfdfd; */
+    border-radius: 0;
+  }
+
+  .followUs {
+    position: relative;
+  }
+
+  .menu {
+    display: none;
+  }
 
 
-/* Mobile screen sizes smaller than */
-@media (max-width: 700px) {
+}
+
+
+/* Media queries mobile tablet and smaller desktop */
+
+@media (min-width: 523px) and (max-width: 700px) {
   .header {
     position: fixed;
     top: 0;
@@ -1203,8 +1286,7 @@
   }
 }
 
-/* Mobile screen sizes smaller than */
-@media (max-width: 525px) {
+@media screen and (min-width: 419px) and (max-width: 525px) {
 
   .header {
     position: fixed;
@@ -1654,6 +1736,94 @@
   }
 }
 
+@media (max-width: 425px) {
+
+  .header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100vw;
+    height: 80px;
+    background: transparent;
+    /* padding: 27px 17%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+    background: transparent;
+    backdrop-filter: blur(35px);
+    border-bottom: solid 1px #5c5f5f;
+  }
+
+  .logo {
+    font-size: 1em;
+    white-space: nowrap;
+    position: relative;
+    color: #fcfdfd;
+    font-weight: 700;
+    /* width: 300px; */
+    left: 3%;
+    font-family: Open Sans, sans-serif;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .socials {
+    /* margin-left: 12rem; */
+    position: relative;
+    left: 16%;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    /* margin-left: 2rem; */
+  }
+
+  .followUs {
+    position: relative;
+    font-size: 0.6rem;
+    /* right: 1rem; */
+  }
+
+  .socials a:first-child {
+    position: relative;
+    color: #fcfdfd;
+    /* font-size: 1rem; */
+    /* border: solid 1px #fcfdfd; */
+    /* margin-left: 2rem; */
+  }
+
+  .socials a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-image: no-repeat;
+    height: 45px;
+    width: 45px;
+    /* color: #874213; */
+    /* background: #202020; */
+    font-size: 20px;
+    margin-right: 8px;
+    transition: transform 0.6s;
+    /* border: 1px solid #fcfdfd; */
+    border-radius: 0;
+  }
+
+  .menu {
+    display: block;
+    cursor: pointer;
+    /* display: none; */
+    z-index: 10001;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+  }
+}
 
 @media (max-width: 375px) {
 
@@ -1665,7 +1835,6 @@
     width: 100vw;
     height: 60px;
     background: transparent;
-    /* padding: 27px 17%; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1679,7 +1848,7 @@
     font-size: 24px;
     white-space: nowrap;
     position: relative;
-    color: #fcfdfd;
+    color: #0ccece;
     font-weight: 700;
     /* width: 300px; */
     left: 3%;
@@ -1771,9 +1940,9 @@
     color: #fcfdfd;
     height: 25px;
     width: 25px;
-    margin-left: -0.5rem;
+    margin-left: -1.5rem;
     margin-top: 8px;
-    right: 1rem;
+    /* right: 1rem; */
     margin-bottom: 35px;
     /* display: none; */
   }
@@ -1900,7 +2069,7 @@
 
   .developerText {
     position: relative;
-    left: 166px;
+    left: 176px;
     top: 2%;
     /* margin-top: 2.3rem; */
     /* white-space: nowrap; */
@@ -2037,7 +2206,7 @@
   .webAppsText {
     /* position: relative; */
     width: 100vw;
-    left: 56px;
+    left: 45px;
     top: 3rem;
     margin: 0;
     /* white-space: nowrap; */
@@ -2127,6 +2296,13 @@
 
 @media (max-width: 320px) {
 
+  .main {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
   .header {
     position: fixed;
     top: 0;
@@ -2146,10 +2322,10 @@
   }
 
   .logo {
-    font-size: 22px;
+    font-size: 19px;
     white-space: nowrap;
     position: relative;
-    color: #fcfdfd;
+    color: #df6a6a;
     font-weight: 700;
     /* width: 300px; */
     left: 3%;
@@ -2163,7 +2339,7 @@
   .socials {
     /* margin-left: 12rem; */
     position: relative;
-    left: 17%;
+    left: 23%;
     display: flex;
     align-items: center;
     white-space: nowrap;
@@ -2241,9 +2417,9 @@
     color: #fcfdfd;
     height: 20px;
     width: 20px;
-    margin-left: -1rem;
+    margin-left: -1.75rem;
     margin-top: 10px;
-    right: 1rem;
+    /* right: -1rem; */
     margin-bottom: 35px;
     /* display: none; */
   }
@@ -2257,7 +2433,7 @@
   }
 
   .homeText {
-    max-width: 310px;
+    max-width: 300px;
     overflow: hidden;
     position: relative;
     left: 10px;
@@ -2287,16 +2463,12 @@
     position: relative;
     padding: 5px 10px;
     font-size: 14px;
-    left: 62%;
+    left: 64%;
     border-radius: 3px;
   }
 
   .feature {
     display: none;
-    position: relative;
-    top: 2rem;
-    /* margin: 1rem; */
-    left: 0;
   }
 
   /* .techStack {
@@ -2342,9 +2514,9 @@
     background-repeat: no-repeat;
     justify-content: center;
     max-width: 300px;
-    height: 170px;
+    height: 250px;
     border-radius: 3px;
-    top: 70px;
+    top: 1.5rem;
     left: 10px;
   }
 
@@ -2359,14 +2531,14 @@
     position: relative;
     margin: 0;
     /* margin-top: 2rem; */
-    top: 9rem;
+    /* top: -2rem; */
     width: 320px;
   }
 
   .developerText {
     position: relative;
-    left: 172px;
-    top: 2%;
+    left: 16px;
+    top: 3.5rem;
     /* margin-top: 2.3rem; */
     /* white-space: nowrap; */
   }
@@ -2398,7 +2570,7 @@
   .tour {
     position: relative;
     max-width: 320px;
-    top: 8rem;
+    top: 4rem;
   }
 
   .centerText {
@@ -2413,7 +2585,7 @@
 
   .tourContent {
     position: relative;
-    left: -0.8rem;
+    left: -1.3rem;
     bottom: 10rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
@@ -2485,10 +2657,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 320px;
+    max-width: 300px;
+    max-height: 250px;
     border-radius: 3px;
-    top: 1rem;
-    left: 0.5rem;
+    top: -1rem;
+    left: 10px;
   }
 
 
@@ -2497,7 +2670,7 @@
     position: relative;
     margin: 0;
     max-width: 320px;
-    top: 1rem;
+    top: -4rem;
 
   }
 
@@ -2505,17 +2678,17 @@
     display: none;
   }
 
-  .webAppsText h5 {
-    font-size: 1rem;
-  }
-
   .webAppsText {
     /* position: relative; */
     max-width: 320px;
-    left: 43px;
-    top: 3rem;
+    left: 16px;
+    top: 7.5rem;
     margin: 0;
     /* white-space: nowrap; */
+  }
+
+  .webAppsText h5 {
+    font-size: 1rem;
   }
 
   .webAppsText h1 {
@@ -2556,8 +2729,8 @@
   .newsletterContent {
     grid-template-columns: 1fr;
     gap: 2rem;
-    left: -26px;
-    top: 8rem;
+    left: -29px;
+    top: 3rem;
   }
 
   .newsletterText h2 {
@@ -2573,8 +2746,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     gap: 2rem;
-    left: 16px;
-    top: 12rem;
+    left: 10px;
+    top: 8rem;
   }
 
   .servicesContent {
@@ -2587,5 +2760,11 @@
     position: relative;
     bottom: 0;
     font-size: 18px
+  }
+
+  .copyright p {
+    position: relative;
+    font-size: 16px;
+    bottom: -0.5rem;
   }
 }

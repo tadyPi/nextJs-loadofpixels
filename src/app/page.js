@@ -245,15 +245,15 @@ export default function Home() {
 
         <div className={styles.firstImage2}>
           <img
-            src="/cloud.jpg"
-            alt="cloud image"
+            src="/Mobile-app-wireframe.jpeg"
+            alt="Mobile-app-wireframe"
             style={{ width: "100%", height: "328px" }}
           />
         </div>
 
         <section className={styles.webAppsSection}>
           <div className={styles.webAppsImg}>
-            <img src="/laptop.jpg" alt="laptop image" />
+            <img src="/Mobile-app-wireframe.jpeg" alt="Mobile-app-wireframe" />
           </div>
           <div className={styles.webAppsText}>
             <h5>
