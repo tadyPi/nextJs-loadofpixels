@@ -839,7 +839,7 @@
 }
 
 
-/* Media queries mobile tablet and smaller desktop */
+/* Media queries mobile and tablet */
 
 @media (min-width: 523px) and (max-width: 700px) {
   .header {
