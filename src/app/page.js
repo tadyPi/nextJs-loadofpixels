@@ -211,7 +211,7 @@ export default function Home() {
               and responsive web applications, providing seamless user
               experiences across various devices.
             </p>
-            <a href="/about-us" className={styles.webDevBtn}>
+            <a href="/about-us" className={styles.homeButton2}>
               Contact us
             </a>
           </div>
@@ -285,7 +285,7 @@ export default function Home() {
               versatile tools allow us to conceptualize, prototype, and refine
               our designs with precision and efficiency.
             </p>
-            <a href="/about-us" className={styles.webAppsBtn}>
+            <a href="/about-us" className={styles.homeButton3}>
               read more
             </a>
           </div>
