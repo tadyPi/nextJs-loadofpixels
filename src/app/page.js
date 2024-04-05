@@ -1,4 +1,3 @@
-// import Image from "next/image";
 import styles from "./page.module.css";
 import Head from "next/head";
 
@@ -7,8 +6,9 @@ export default function Home() {
     <div>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* <link rel="shortcut icon" href="/Icon-busta.png" /> */}
-        <link rel="icon" href="/app/Icon-busta.png" />
+        <link rel="icon" href="/Icon-busta.png" />
+        
+        {/* BoxIcons */}
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.0.7/css/boxicons.min.css"
@@ -17,10 +17,13 @@ export default function Home() {
           rel="stylesheet"
           href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
         />
+        {/* Remix Icons */}
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/2.5.0/remixicon.min.css"
         />
+
+        {/* Google fonts */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
@@ -78,11 +81,12 @@ export default function Home() {
           </div>
         </header>
 
+          {/* Home section */}
         <section className={styles.home}>
           <div className={styles.homeText}>
             <h5>Load of pixels</h5>
             <h1>
-              Web development <br /> UI/UX designer
+              Web development <br />UI/UX designer
             </h1>
             <p className={styles.homePara}>
               I specialize in utilizing a range of technologies to create
@@ -99,6 +103,7 @@ export default function Home() {
           </div>
         </section>
 
+            {/* Feature section */}
         <div className={styles.techStack}>Tech stack</div>
         <section className={styles.feature}>
           <div className={styles.featureContent}>
@@ -132,7 +137,7 @@ export default function Home() {
               <div className={styles.rowImg}>
                 <img
                   className={styles.VScode}
-                  src="/VS-code.png"
+                  src="/VS-Code.png"
                   alt="Virtual Studio Code logo"
                   width={50}
                   height={90}
@@ -177,6 +182,7 @@ export default function Home() {
           />
         </div>
 
+            {/* web and cloud developer section */}
         <section className={styles.developerSection}>
           <div className={styles.developerImg}>
             <img
@@ -211,11 +217,13 @@ export default function Home() {
           </div>
         </section>
 
+          {/* sevices section */}
         <section className={styles.tour}>
           <div className={styles.centerText}>
             <h2>Popular services</h2>
           </div>
 
+            {/* tour section */}
           <div className={styles.tourContent}>
             <div className={styles.box}>
               <img src="/server.jpg" alt="Virtual-server" />
@@ -230,7 +238,7 @@ export default function Home() {
             </div>
 
             <div className={styles.box}>
-              <img src="/ai-assistant.jpg" alt="ai-assistant" />
+              <img src="/AI-assistant.jpg" alt="ai-assistant" />
               <h6>Ai-assistant</h6>
               <h4>Large language models</h4>
             </div>
@@ -251,6 +259,7 @@ export default function Home() {
           />
         </div>
 
+              {/* UI/UX design and web apps section*/}
         <section className={styles.webAppsSection}>
           <div className={styles.webAppsImg}>
             <img src="/Mobile-app-wireframe.jpeg" alt="Mobile-app-wireframe" />

@@ -191,7 +191,7 @@
   display: none;
 }
 
-
+/* Home section */
 .home {
   padding: 70px 17% 60px;
   margin-top: 32px;
@@ -206,6 +206,8 @@
 }
 
 .homeText h5 {
+  position: absolute;
+  top: 4rem;
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 10px;
@@ -218,7 +220,7 @@
 }
 
 .homeText h1 {
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 20px;
@@ -226,7 +228,6 @@
 }
 
 .homeText h1 {
-  /* font-size: 4rem; */
   background: linear-gradient(to right,
       rgb(5, 119, 139),
       rgb(239, 94, 213),
@@ -319,22 +320,22 @@
 
 .techStack {
   position: relative;
-  width: 100%;
+  max-width: 100%;
   top: 3.5rem;
   left: 42%;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #b1b5b5;
   /* transform: translateX(-50%); */
 }
 
 .featureContent h4 {
-  color: rgb(165, 196, 148);
+  color: rgb(193, 193, 193);
   position: relative;
   right: 2.5rem;
 }
 
 .featureContent h4:hover {
-  color: #bbd7d7;
+  color: #bfe4e4;
 }
 
 .rowImg img:hover {
@@ -356,6 +357,7 @@
   display: none;
 }
 
+/* web and cloud developer section */
 .developerSection {
   position: relative;
   top: 14rem;
@@ -388,7 +390,7 @@
 }
 
 .developerText h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 800;
   list-style: 1.2;
   margin-bottom: 25px;
@@ -569,7 +571,7 @@
 }
 
 .webAppsText h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 800;
   list-style: 1.2;
   margin-bottom: 25px;
@@ -1157,7 +1159,7 @@
     color: #1a1a1a;
   }
 
-
+/* web and cloud developer section */
   .webAppsSection {
     position: relative;
     /* display: grid;
@@ -1199,7 +1201,7 @@
     font-weight: 800;
     list-style: 1.2;
     margin-bottom: 25px;
-    color: #fcfdfd;
+    color: #fdfdfc;
     margin-top: 1rem;
     font-size: 3rem;
     white-space: nowrap;
@@ -1211,7 +1213,7 @@
     color: #fcfdfd;
     margin-bottom: 35px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1rem;
     white-space: pre-wrap;
     width: 690px;
   }
@@ -1246,6 +1248,8 @@
     font-size: 18px;
   }
 
+
+  /* newsLetter section */
   .newsletterContent {
     grid-template-columns: 1fr;
     gap: 2rem;
