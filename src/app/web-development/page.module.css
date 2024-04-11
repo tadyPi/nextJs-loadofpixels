@@ -75,7 +75,6 @@
   display: flex;
   align-items: center;
   white-space: nowrap;
-  /* border: 1px solid #fcfdfd; */
 }
 
 .followUs {
@@ -171,14 +170,25 @@
 }
 
 .menu {
-  color: #fcfdfd;
-  font-size: 30px;
   cursor: pointer;
-  display: none;
   z-index: 10001;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-image: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='rgba(255,255,255,1)'%3E%3Cpath d='M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z'%3E%3C/path%3E%3C/svg%3E");
+  color: #fcfdfd;
+  height: 30px;
+  width: 30px;
+  margin-left: 0.5rem;
+  left: 12px;
+  margin-bottom: 27px;
+  display: none;
 }
 
-
+/* Home section */
 .home {
   padding: 70px 17% 60px;
   margin-top: 32px;
@@ -193,16 +203,20 @@
 }
 
 .homeText h5 {
+  position: absolute;
+  top: 4rem;
   font-size: 1.5rem;
-  font-weight: 600;
   margin-bottom: 10px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 6px;
   color: #fcfd;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .homeText h1 {
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 20px;
@@ -253,7 +267,7 @@
   font-size: 15px;
   font-weight: 600;
   border: 2px solid #fcfdfd;
-  border-radius: 5px;
+  border-radius: 2px;
   transition: all 0.5s ease;
   cursor: pointer;
   left: 85%;
@@ -267,8 +281,8 @@
   color: #1a1a1a;
 }
 
-/* Feature section */
 
+/* Feature section */
 .techStack {
   position: relative;
   width: 100%;
@@ -286,7 +300,9 @@
   grid-template-columns: repeat(auto-fit, minmax(150px, auto));
   align-items: center;
   text-align: center;
+  justify-content: center;
   gap: 3rem;
+  margin: 0 1rem 0 1rem;
 }
 
 .rowImg {
@@ -302,21 +318,21 @@
 
 .rowImg img {
   position: relative;
-  margin-left: 2rem;
-  width: 170px;
+  /* margin-left: 2rem; */
+  width: 150px;
   height: 90px;
   display: block;
   transition: transform 0.7s;
 }
 
 .featureContent h4 {
-  color: rgb(165, 196, 148);
+  color: rgb(184, 184, 184);
   position: relative;
-  left: -16px;
+  justify-content: center;
 }
 
 .featureContent h4:hover {
-  color: #bbd7d7;
+  color: #f2f5f5;
 }
 
 .rowImg img:hover {
@@ -354,15 +370,17 @@
 
 .developerText h5 {
   font-size: 22px;
-  font-weight: 600;
   color: #fcfd;
   /* text-transform: uppercase; */
   letter-spacing: 6px;
   margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .developerText h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 800;
   list-style: 1.2;
   margin-bottom: 25px;
@@ -388,11 +406,11 @@
   /* margin-top: 2%; */
 }
 
-.developerButton {
+.homeButton2 {
   position: relative;
   display: inline-block;
   padding: 13px 40px;
-  background: transparent;
+  /* background: transparent; */
   /* background: var(--bg-color); */
   color: #fcfdfd;
   font-size: 15px;
@@ -404,7 +422,7 @@
   left: 70%;
 }
 
-.developerButton:hover {
+.homeButton2:hover {
   transform: translateX(10px);
   border: 2px solid #fcfdfd;
   background: #fcfdfd;
@@ -533,13 +551,15 @@
   font-size: 22px;
   font-weight: 600;
   color: #fcfd;
-  /* text-transform: uppercase; */
   letter-spacing: 6px;
   margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal
 }
 
 .webAppsText h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 800;
   list-style: 1.2;
   margin-bottom: 25px;

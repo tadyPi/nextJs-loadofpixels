@@ -75,7 +75,6 @@
   display: flex;
   align-items: center;
   white-space: nowrap;
-  /* border: 1px solid #fcfdfd; */
 }
 
 .followUs {
@@ -87,8 +86,6 @@
   position: relative;
   color: #fcfdfd;
   font-size: 1rem;
-  /* border: solid 1px #fcfdfd; */
-  /* margin-left: 2rem; */
 }
 
 .socials a {
@@ -104,7 +101,6 @@
   font-size: 20px;
   margin-right: 8px;
   transition: transform 0.6s;
-  /* border: 1px solid #fcfdfd; */
   border-radius: 0;
 }
 
@@ -122,15 +118,13 @@
   background-size: cover;
   background-image: no-repeat;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24' fill='rgba(250,250,250,1)'%3E%3Cpath d='M4.00098 3H20.001C20.5533 3 21.001 3.44772 21.001 4V20C21.001 20.5523 20.5533 21 20.001 21H4.00098C3.44869 21 3.00098 20.5523 3.00098 20V4C3.00098 3.44772 3.44869 3 4.00098 3ZM5.00098 5V19H19.001V5H5.00098ZM7.50098 9C6.67255 9 6.00098 8.32843 6.00098 7.5C6.00098 6.67157 6.67255 6 7.50098 6C8.3294 6 9.00098 6.67157 9.00098 7.5C9.00098 8.32843 8.3294 9 7.50098 9ZM6.50098 10H8.50098V17.5H6.50098V10ZM12.001 10.4295C12.5854 9.86534 13.2665 9.5 14.001 9.5C16.072 9.5 17.501 11.1789 17.501 13.25V17.5H15.501V13.25C15.501 12.2835 14.7175 11.5 13.751 11.5C12.7845 11.5 12.001 12.2835 12.001 13.25V17.5H10.001V10H12.001V10.4295Z'%3E%3C/path%3E%3C/svg%3E");
-
   height: 35px;
   width: 35px;
   color: #fcfdfd;
-  /* background: #202020; */
+  background-color: #202020;
   font-size: 20px;
   margin-right: 8px;
   transition: transform 0.6s;
-  /* border: 1px solid #fcfdfd; */
   border-radius: 0;
 }
 
@@ -143,12 +137,9 @@
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='rgba(255,255,255,1)'%3E%3Cpath d='M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z'%3E%3C/path%3E%3C/svg%3E");
   height: 35px;
   width: 35px;
-  /* color: #874213; */
-  /* background: #202020; */
   font-size: 20px;
   margin-right: 8px;
   transition: transform 0.6s;
-  /* border: 1px solid #fcfdfd; */
   border-radius: 0;
 }
 
@@ -161,30 +152,37 @@
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='rgba(255,255,255,1)'%3E%3Cpath d='M11.501 3V11.5H3.00098V3H11.501ZM11.501 21H3.00098V12.5H11.501V21ZM12.501 3H21.001V11.5H12.501V3ZM21.001 12.5V21H12.501V12.5H21.001Z'%3E%3C/path%3E%3C/svg%3E");
   height: 35px;
   width: 35px;
-  /* color: #874213; */
-  /* background: #202020; */
   font-size: 20px;
   margin-right: 8px;
   transition: transform 0.6s;
-  /* border: 1px solid #fcfdfd; */
   border-radius: 0;
 }
 
 .menu {
-  color: #fcfdfd;
-  font-size: 30px;
   cursor: pointer;
-  display: none;
   z-index: 10001;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-image: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='rgba(255,255,255,1)'%3E%3Cpath d='M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z'%3E%3C/path%3E%3C/svg%3E");
+  color: #fcfdfd;
+  height: 30px;
+  width: 30px;
+  margin-left: 0.5rem;
+  left: 12px;
+  margin-bottom: 27px;
+  display: none;
 }
 
-
+/* Home section */
 .home {
   padding: 70px 17% 60px;
   margin-top: 32px;
   position: relative;
   height: 100vh;
-  /* width: 100%; */
   background-size: cover;
   background-position: bottom;
   display: flex;
@@ -193,10 +191,10 @@
 }
 
 .homeText h5 {
+  position: absolute;
+  top: 4rem;
   font-size: 1.5rem;
-  font-weight: 600;
   margin-bottom: 10px;
-  text-transform: uppercase;
   letter-spacing: 6px;
   color: #fcfd;
   font-family: "Poppins", sans-serif;
@@ -205,7 +203,7 @@
 }
 
 .homeText h1 {
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 20px;
@@ -288,7 +286,9 @@
   grid-template-columns: repeat(auto-fit, minmax(150px, auto));
   align-items: center;
   text-align: center;
+  justify-content: center;
   gap: 3rem;
+  margin: 0 1rem 0 1rem;
 }
 
 .rowImg {
@@ -304,21 +304,21 @@
 
 .rowImg img {
   position: relative;
-  margin-left: 2rem;
-  width: 170px;
+  /* margin-left: 2rem; */
+  width: 150px;
   height: 90px;
   display: block;
   transition: transform 0.7s;
 }
 
 .featureContent h4 {
-  color: rgb(165, 196, 148);
+  color: rgb(193, 193, 193);
   position: relative;
-  left: -16px;
+  justify-content: center;
 }
 
 .featureContent h4:hover {
-  color: #bbd7d7;
+  color: #bfe4e4;
 }
 
 .rowImg img:hover {
@@ -335,7 +335,12 @@
   transition: all 0.5s ease;
 }
 
+.firstImage,
+.firstImage2 {
+  display: none;
+}
 
+/* web and cloud developer section */
 .developerSection {
   position: relative;
   top: 14rem;
@@ -353,9 +358,7 @@
 
 .developerText h5 {
   font-size: 22px;
-  font-weight: 600;
   color: #fcfd;
-  /* text-transform: uppercase; */
   letter-spacing: 6px;
   margin-bottom: 20px;
   font-family: "Poppins", sans-serif;
@@ -364,7 +367,7 @@
 }
 
 .developerText h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 800;
   list-style: 1.2;
   margin-bottom: 25px;
@@ -383,14 +386,15 @@
 
 .developerImg img {
   position: relative;
+  background-size: contain;
   width: 100%;
   height: 600px;
-  /* border-radius: 3px; */
+  border-radius: 3px;
   margin-left: 13%;
   /* margin-top: 2%; */
 }
 
-.developerButton {
+.homeButton2 {
   position: relative;
   display: inline-block;
   padding: 13px 40px;
@@ -406,7 +410,7 @@
   left: 70%;
 }
 
-.developerButton:hover {
+.homeButton2:hover {
   transform: translateX(10px);
   border: 2px solid #fcfdfd;
   background: #fcfdfd;
@@ -489,7 +493,6 @@
   display: inline-block;
   padding: 13px 40px;
   background: transparent;
-  /* background: var(--bg-color); */
   color: #fcfdfd;
   font-size: 15px;
   font-weight: 600;
@@ -514,15 +517,12 @@
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   top: 19rem;
-  /* gap: 9rem; */
 }
 
 .webAppsImg img {
   position: relative;
   width: 90%;
   height: 600px;
-  /* border-radius: 3px; */
-  /* margin-left: 13%; */
   margin-left: 3%;
 }
 
@@ -535,7 +535,6 @@
   font-size: 22px;
   font-weight: 600;
   color: #fcfd;
-  /* text-transform: uppercase; */
   letter-spacing: 6px;
   margin-bottom: 20px;
   font-family: "Poppins", sans-serif;
@@ -544,7 +543,7 @@
 }
 
 .webAppsText h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 800;
   list-style: 1.2;
   margin-bottom: 25px;
@@ -560,7 +559,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.webAppsBtn {
+.homeButton3 {
   position: relative;
   display: inline-block;
   padding: 13px 40px;
@@ -575,6 +574,14 @@
   cursor: pointer;
   left: 0%;
 }
+
+.homeButton3:hover {
+  transform: translateX(10px);
+  border: 2px solid #fcfdfd;
+  background: #fcfdfd;
+  color: #1a1a1a;
+}
+
 
 .newsletterContent {
   position: relative;
@@ -603,69 +610,8 @@
 }
 
 .newsletterContent form {
-  display: grid;
-  grid-template-columns: 1fr 0.4fr;
-  gap: 1rem;
+  display: none;
 }
-
-.newsletterContent form input:first-child {
-  padding: 15px;
-  background: #202020;
-  font-size: 1rem;
-  color: #fcfdfd;
-  border-radius: 5px;
-}
-
-/* .contact-us {
-  background: linear-gradient(to top, #1a1a1a);
-  padding: 50px 0;
-  text-align: center;
-}
-
-.contact-form {
-  width: 80%;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.contact-form h2 {
-  color: #fff;
-  margin-bottom: 30px;
-}
-
-.contact-form form {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact-form input,
-.contact-form textarea {
-  margin-bottom: 20px;
-  padding: 10px;
-  border: 1px solid #fcfd;
-  background: #252323;
-  border-radius: 5px;
-  font-size: 16px;
-  width: 100%;
-}
-
-.contact-form button {
-  padding: 10px;
-  background-color: #fcfd;
-  width: 28%;
-  color: #1a1a1a;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-.contact-form button:hover {
-  transform: translateX(10px);
-  border: 2px solid var(--text-color);
-  background: transparent;
-  color: var(--text-color);
-} */
 
 .footer {
   position: relative;
@@ -693,7 +639,6 @@
   margin-bottom: 0.8rem;
   transition: all 0.5s ease;
   font-family: 'Open Sans', sans-serif;
-
 }
 
 .footerBox a:hover {
@@ -701,6 +646,7 @@
   color: #fcfdfd;
 }
 
+/* footer icons grouped */
 .icon1 {
   display: inline-flex;
   align-items: center;
@@ -711,7 +657,6 @@
   height: 45px;
   width: 45px;
   color: #fcfdfd;
-  /* background: #202020; */
   font-size: 20px;
   margin-right: 8px;
   transition: transform 0.6s;
@@ -728,8 +673,6 @@
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='rgba(255,255,255,1)'%3E%3Cpath d='M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z'%3E%3C/path%3E%3C/svg%3E");
   height: 45px;
   width: 45px;
-  color: #874213;
-  /* background: #202020; */
   font-size: 20px;
   margin-right: 8px;
   transition: transform 0.6s;
@@ -746,33 +689,11 @@
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='rgba(255,242,242,1)'%3E%3Cpath d='M3.00098 5.47902L10.3778 4.4625V11.5902H3.00098V5.47902ZM3.00098 18.521L10.3778 19.5375V12.4982H3.00098V18.521ZM11.1894 19.646L21.001 21V12.4982H11.1894V19.646ZM11.1894 4.35402V11.5902H21.001V3L11.1894 4.35402Z'%3E%3C/path%3E%3C/svg%3E");
   height: 45px;
   width: 45px;
-  /* color: #874213; */
-  /* background: #202020; */
   font-size: 20px;
   margin-right: 8px;
   transition: transform 0.6s;
   border: 1px solid #fcfdfd;
   border-radius: 0;
-}
-
-.social a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: 45px;
-  width: 45px;
-  background: #202020;
-  color: var(--text-color);
-  font-size: 20px;
-  border-radius: 50%;
-  margin-right: 8px;
-  transition: transform 0.6s;
-}
-
-.social a:hover {
-  background: var(--main-color);
-  color: var(--bg-color);
-  transform: translateX(-4px)
 }
 
 .copyright {

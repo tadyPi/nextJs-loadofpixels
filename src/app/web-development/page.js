@@ -77,19 +77,17 @@ export default function webDevelopment() {
           <div className={styles.homeText}>
             <h5>Load of pixels</h5>
             <h1>
-              Cloud and <br />
-              Web development
+              Cloud and Web <br />
+              development
             </h1>
             <p className={styles.homePara}>
               Leveraging the power of Node.js, I develop scalable and efficient
-              server-side
-              <br className="break-for-mobile" /> applications.
+              server-side applications.
               <br />
               <br />
               Proficient in JavaScript HTML and CSS, I employ these foundational
-              languages
-              <br className="break-for-mobile" /> to craft interactive and
-              visually appealing user interfaces.
+              languages to craft interactive and visually appealing user
+              interfaces.
             </p>
             <a href="/contact.html" className={styles.homeButton}>
               Contact us
@@ -130,7 +128,7 @@ export default function webDevelopment() {
               <div className={styles.rowImg}>
                 <img
                   className={styles.VScode}
-                  src="/VS-code.png"
+                  src="/VS-Code.png"
                   alt="Virtual Studio Code logo"
                   width={100}
                   height={100}
@@ -193,7 +191,7 @@ export default function webDevelopment() {
               and responsive web applications, providing seamless user
               experiences across various devices.
             </p>
-            <a href="/contact.html" className={styles.developerButton}>
+            <a href="/contact.html" className={styles.homeButton2}>
               Contact us
             </a>
           </div>
@@ -218,7 +216,7 @@ export default function webDevelopment() {
             </div>
 
             <div className={styles.box}>
-              <img src="/ai-assistant.jpg" alt="ai-assistant" />
+              <img src="/AI-assistant.jpg" alt="ai-assistant" />
               <h6>Ai-assistant</h6>
               <h4>Large language models</h4>
             </div>

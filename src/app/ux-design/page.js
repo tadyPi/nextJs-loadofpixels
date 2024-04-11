@@ -124,7 +124,7 @@ export default function uxDesign() {
               <div className={styles.rowImg}>
                 <img
                   className={styles.VScode}
-                  src="/VS-code.png"
+                  src="/VS-Code.png"
                   alt="Virtual Studio Code logo"
                   width={100}
                   height={100}
@@ -164,8 +164,9 @@ export default function uxDesign() {
         <section className={styles.developerSection}>
           <div className={styles.developerImg}>
             <img
-              src="/Wireframe-DarkBlue.jpg"
-              alt="DarkBlue wireframe image of a laptop."
+              // src="/Wireframe-DarkBlue.jpg"
+              src="/Figma-vsCode-NextJs.png"
+              alt="Figma logo, Next.js logo, VS code logo."
             />
           </div>
 
@@ -183,7 +184,7 @@ export default function uxDesign() {
               Through the creation of wireframes and prototypes, I transform
               concepts into tangible designs that can be tested and refined.
             </p>
-            <a href="/about-us" className={styles.developerButton}>
+            <a href="/about-us" className={styles.homeButton2}>
               Contact us
             </a>
           </div>
@@ -208,7 +209,7 @@ export default function uxDesign() {
             </div>
 
             <div className={styles.box}>
-              <img src="/ai-assistant.jpg" alt="ai-assistant" />
+              <img src="/AI-assistant.jpg" alt="ai-assistant" />
               <h6>Ai-assistant</h6>
               <h4>Large language models</h4>
             </div>
@@ -237,7 +238,7 @@ export default function uxDesign() {
               backgrounds, and striving for fair and inclusive experiences. read
               more
             </p>
-            <a href="/about-us" className={styles.webAppsBtn}>
+            <a href="/about-us" className={styles.homeButton3}>
               read more
             </a>
           </div>

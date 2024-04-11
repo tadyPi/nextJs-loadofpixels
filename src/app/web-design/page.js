@@ -124,7 +124,7 @@ export default function WebDesign() {
               <div className={styles.rowImg}>
                 <img
                   className={styles.VScode}
-                  src="/VS-code.png"
+                  src="/VS-Code.png"
                   alt="Virtual Studio Code logo"
                   width={100}
                   height={100}
@@ -187,7 +187,7 @@ export default function WebDesign() {
               solutions to ensure that your website or web app runs smoothly and
               efficiently.
             </p>
-            <a href="/about-us" className={styles.developerButton}>
+            <a href="/about-us" className={styles.homeButton2}>
               Contact us
             </a>
           </div>
@@ -212,7 +212,7 @@ export default function WebDesign() {
             </div>
 
             <div className={styles.box}>
-              <img src="/ai-assistant.jpg" alt="ai-assistant" />
+              <img src="/AI-assistant.jpg" alt="ai-assistant" />
               <h6>Ai-assistant</h6>
               <h4>Large language models</h4>
             </div>
@@ -227,7 +227,7 @@ export default function WebDesign() {
 
         <section className={styles.webAppsSection}>
           <div className={styles.webAppsText}>
-            <h5>Google UX and Webflow designer</h5>
+            <h5>Google UX and WebFlow designer</h5>
             <h1>
               We design and develop custom
               <br /> web apps.
@@ -243,7 +243,7 @@ export default function WebDesign() {
               versatile tools allow us to conceptualize, prototype, and refine
               our designs with precision and efficiency.
             </p>
-            <a href="/about-us" className={styles.webAppsBtn}>
+            <a href="/about-us" className={styles.homeButton3}>
               read more
             </a>
           </div>

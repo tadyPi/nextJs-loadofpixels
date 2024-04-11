@@ -76,7 +76,7 @@ export default function aboutUs() {
         <section className={styles.home}>
           <div className={styles.homeText}>
             <h5>Contact Harry</h5>
-            <h1>loadofpixels@outlook.com</h1>
+            <h1>services@loadofpixels.com</h1>
             <p className={styles.homePara}>
               Whatever your web needs are, we have you covered.
               <br />
