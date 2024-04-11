@@ -228,10 +228,7 @@ export default function WebDesign() {
         <section className={styles.webAppsSection}>
           <div className={styles.webAppsText}>
             <h5>Google UX and WebFlow designer</h5>
-            <h1>
-              We design and develop custom
-              <br /> web apps.
-            </h1>
+            <h1>We design and develop custom web apps.</h1>
             <p>
               Our approach to web design is characterized by a dynamic fusion of
               cutting-edge tools and technologies to craft responsive websites

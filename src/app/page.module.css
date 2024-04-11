@@ -302,7 +302,7 @@
 .rowImg img {
   position: relative;
   width: 150px;
-  height: 90px;
+  height: 70px;
   display: block;
   transition: transform 0.7s;
 }
@@ -384,7 +384,8 @@
   position: relative;
   width: 100%;
   height: 600px;
-  /* border-radius: 3px; */
+  border: 1px solid #5c5f5f;
+  border-radius: 3px;
   margin-left: 13%;
   /* margin-top: 2%; */
 }
@@ -519,6 +520,8 @@
   width: 90%;
   height: 600px;
   margin-left: 3%;
+  border-radius: 3px;
+  border: 1px solid #5c5f5f;
 }
 
 .webAppsText {

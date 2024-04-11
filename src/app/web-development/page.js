@@ -235,10 +235,7 @@ export default function webDevelopment() {
               Google UX designer
               <br /> and web design
             </h5>
-            <h1>
-              We design and develop custom
-              <br /> web apps
-            </h1>
+            <h1>We design and develop custom web apps</h1>
             <p>
               As an experienced web developer, I specialize in utilizing a range
               of technologies to create dynamic and engaging websites.
