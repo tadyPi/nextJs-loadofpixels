@@ -6,8 +6,8 @@ export default function Home() {
     <div>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/Icon-busta.png" />
-        
+        <link rel="icon" href="/Icon-busta.ico" />
+
         {/* BoxIcons */}
         <link
           rel="stylesheet"
@@ -81,12 +81,13 @@ export default function Home() {
           </div>
         </header>
 
-          {/* Home section */}
+        {/* Home section */}
         <section className={styles.home}>
           <div className={styles.homeText}>
             <h5>Load of pixels</h5>
             <h1>
-              Web development <br />UI/UX designer
+              Web development <br />
+              UI/UX designer
             </h1>
             <p className={styles.homePara}>
               I specialize in utilizing a range of technologies to create
@@ -103,7 +104,7 @@ export default function Home() {
           </div>
         </section>
 
-            {/* Feature section */}
+        {/* Feature section */}
         <div className={styles.techStack}>Tech stack</div>
         <section className={styles.feature}>
           <div className={styles.featureContent}>
@@ -182,7 +183,7 @@ export default function Home() {
           />
         </div>
 
-            {/* web and cloud developer section */}
+        {/* web and cloud developer section */}
         <section className={styles.developerSection}>
           <div className={styles.developerImg}>
             <img
@@ -217,13 +218,13 @@ export default function Home() {
           </div>
         </section>
 
-          {/* sevices section */}
+        {/* sevices section */}
         <section className={styles.tour}>
           <div className={styles.centerText}>
             <h2>Popular services</h2>
           </div>
 
-            {/* tour section */}
+          {/* tour section */}
           <div className={styles.tourContent}>
             <div className={styles.box}>
               <img src="/server.jpg" alt="Virtual-server" />
@@ -259,7 +260,7 @@ export default function Home() {
           />
         </div>
 
-              {/* UI/UX design and web apps section*/}
+        {/* UI/UX design and web apps section*/}
         <section className={styles.webAppsSection}>
           <div className={styles.webAppsImg}>
             <img src="/Mobile-app-wireframe.jpeg" alt="Mobile-app-wireframe" />
