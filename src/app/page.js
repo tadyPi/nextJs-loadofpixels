@@ -6,7 +6,8 @@ export default function Home() {
     <div>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/Icon-busta.ico" />
+        {/* <link rel="icon" href="/favicon-busta.ico" /> */}
+        <link rel="icon" href="/favicon.ico" sizes="any" />
 
         {/* BoxIcons */}
         <link
