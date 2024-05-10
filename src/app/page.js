@@ -64,18 +64,18 @@ export default function Home() {
               Follow us
             </a>
             <div className={styles.iconTop1}>
-              <a href="https://www.linkedin.com">
+              <a href="https://www.linkedin.com/company/load-of-pixels">
                 <i class="ri-linkedin-fill"></i>
               </a>
             </div>
             <div className={styles.iconTop2}>
-              <a href="https://www.github.com">
-                <i class="ri-twitter-fill"></i>
+              <a href="https://github.com/tadyPi">
+                <i class="ri-github-fill"></i>
               </a>
             </div>
             <div className={styles.iconTop3}>
               <a href="https://learn.microsoft.com/en-gb/users/harrydyson-8809/">
-                <i class="ri-github-fill"></i>
+                <i class="ri-twitter-fill"></i>
               </a>
             </div>
             <div className={styles.menu}></div>
