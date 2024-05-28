@@ -1216,7 +1216,7 @@
   }
 }
 
-@media screen and (min-width: 419px) and (max-width: 525px) {
+@media screen and (min-width: 426px) and (max-width: 525px) {
 
   .header {
     position: fixed;
@@ -1753,6 +1753,10 @@
     justify-content: center;
     background-size: cover;
   }
+
+  .homeText {
+    top: -1rem;
+  }
 }
 
 @media (max-width: 375px) {
@@ -1905,11 +1909,12 @@
   }
 
   .homeText h5 {
-    font-size: 1.3rem;
+    font-size: 1.3em;
+    top: 0;
   }
 
   .homeText h1 {
-    margin-top: 1rem;
+    margin-top: 3rem;
     font-size: 1.9rem;
     color: #fcfdfd;
   }
@@ -2003,13 +2008,16 @@
     position: relative;
     margin: 0;
     /* margin-top: 2rem; */
-    top: 2.5rem;
+    top: 4.5rem;
+    left: 0;
+    width: 100%;
   }
 
   .developerText {
     position: relative;
-    left: 176px;
+    left: 10px;
     top: 2%;
+    width: 350px;
     /* margin-top: 2.3rem; */
     /* white-space: nowrap; */
   }
@@ -2029,11 +2037,12 @@
     font-size: 17px;
   }
 
-  .webDevBtn {
+  .homeButton2 {
     position: relative;
     padding: 10px 15px;
     font-size: 14px;
     left: 66%;
+    bottom: 1rem;
     border-radius: 3px;
   }
 
@@ -2044,14 +2053,14 @@
 
   .centerText {
     position: relative;
-    top: 6rem;
+    top: 1rem;
     margin: 0;
   }
 
   .tourContent {
     position: relative;
-    left: -0.3rem;
-    bottom: 10rem;
+    left: -0;
+    bottom: 15rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     align-items: center;
@@ -2063,6 +2072,7 @@
 
   .box {
     position: relative;
+    left: -26px;
     max-width: 350px;
     border: 1px solid #393a3a;
   }
@@ -2113,7 +2123,7 @@
     border-radius: 5px;
     transition: all 0.5s ease;
     cursor: pointer;
-    left: 0%;
+    left: 24%;
   }
 
 
@@ -2125,7 +2135,7 @@
     background-position: center;
     max-width: 360px;
     border-radius: 3px;
-    top: -64px;
+    top: -40px;
     left: 0.36rem;
   }
 
@@ -2134,7 +2144,7 @@
     padding: 0;
     position: relative;
     margin: 0;
-    max-width: 370px;
+    max-width: 100%;
     top: -5rem;
   }
 
@@ -2145,7 +2155,7 @@
   .webAppsText {
     /* position: relative; */
     width: 100vw;
-    left: 45px;
+    left: 10px;
     top: 3rem;
     margin: 0;
     /* white-space: nowrap; */
@@ -2171,7 +2181,7 @@
     /* white-space: pre-wrap; */
   }
 
-  .webAppsBtn {
+  .homeButton3 {
     position: relative;
     display: inline-block;
     background: transparent;
@@ -2670,7 +2680,7 @@
     padding: 5px 10px;
     font-size: 14px;
     left: 61%;
-    bottom: 22px;
+    bottom: 28px;
     border-radius: 3px;
   }
 
