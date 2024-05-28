@@ -180,7 +180,7 @@ export default function Home() {
           <img
             src="/cloud.jpg"
             alt="cloud image"
-            style={{ width: "100%", height: "328px" }}
+            style={{ width: "100%", height: "200px" }}
           />
         </div>
 
@@ -257,14 +257,18 @@ export default function Home() {
           <img
             src="/Mobile-app-wireframe.jpeg"
             alt="Mobile-app-wireframe"
-            style={{ width: "100%", height: "328px" }}
+            style={{ width: "100%", height: "200px" }}
           />
         </div>
 
         {/* UI/UX design and web apps section*/}
         <section className={styles.webAppsSection}>
           <div className={styles.webAppsImg}>
-            <img src="/Mobile-app-wireframe.jpeg" alt="Mobile-app-wireframe" />
+            <img
+              src="/Mobile-app-wireframe.jpeg"
+              alt="Mobile-app-wireframe"
+              style={{ width: "100%", height: "200px" }}
+            />
           </div>
           <div className={styles.webAppsText}>
             <h5>
