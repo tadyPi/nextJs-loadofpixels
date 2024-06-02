@@ -7,18 +7,8 @@ export default function WebDesign() {
     <div>
       <Head>
         <link rel="shortcut icon" href="/Icon-busta.png" type="image/x-icon" />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.0.7/css/boxicons.min.css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/2.5.0/remixicon.min.css"
-        />
+        <title>Load of pixels</title>
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
@@ -82,7 +72,7 @@ export default function WebDesign() {
               industry-leading design platforms: Figma and Adobe XD.
               <br />
               <br />
-              We've also seamlessly integrated Webflow into our workflow,
+              We&apos;ve also seamlessly integrated Webflow into our workflow,
               enhancing our ability to bring complex design visions to life with
               pixel-perfect accuracy
             </p>
@@ -96,7 +86,7 @@ export default function WebDesign() {
           <div className={styles.featureContent}>
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <img
+                <image
                   className={styles.webStack}
                   src="/Web-stack.png"
                   alt="HTML CSS and Javascript logos"
@@ -109,7 +99,7 @@ export default function WebDesign() {
 
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <img
+                <image
                   className={styles.nodeJs}
                   src="/Node-js-transparent.png"
                   alt="Node.js logo"
@@ -122,7 +112,7 @@ export default function WebDesign() {
 
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <img
+                <image
                   className={styles.VScode}
                   src="/VS-Code.png"
                   alt="Virtual Studio Code logo"
@@ -135,7 +125,7 @@ export default function WebDesign() {
 
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <img
+                <image
                   className={styles.MongoDB}
                   src="/Mongo-db.png"
                   alt="Mongo DB logo"
@@ -148,7 +138,7 @@ export default function WebDesign() {
 
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <img
+                <image
                   className={styles.Azure}
                   src="/Azure-LOGO.png"
                   alt="Microsoft Azure logo"
@@ -163,7 +153,7 @@ export default function WebDesign() {
 
         <section className={styles.developerSection}>
           <div className={styles.developerImg}>
-            <img
+            <image
               src="/web-design.png"
               alt="Colourful wireframe image of Cloud technologies."
             />
@@ -178,12 +168,12 @@ export default function WebDesign() {
               and web applications that stand out in the digital landscape.
               <br />
               <br />
-              We've also seamlessly integrated Webflow into our workflow,
+              We&apos;ve also seamlessly integrated Webflow into our workflow,
               enhancing our ability to bring complex design visions to life with
               pixel-perfect accuracy.
               <br />
               <br />
-              Finally, we don't just stop at design; we also provide web hosting
+              Finally, we dont just stop at design; we also provide web hosting
               solutions to ensure that your website or web app runs smoothly and
               efficiently.
             </p>
@@ -200,19 +190,19 @@ export default function WebDesign() {
 
           <div className={styles.tourContent}>
             <div className={styles.box}>
-              <img src="/server.jpg" alt="Virtual-server" />
+              <image src="/server.jpg" alt="Virtual-server" />
               <h6>Cloud services</h6>
               <h4>AWS Azure GCP</h4>
             </div>
 
             <div className={styles.box}>
-              <img src="/cloud-cpu.jpg" alt="laptop" />
+              <image src="/cloud-cpu.jpg" alt="laptop" />
               <h6>IT management</h6>
               <h4>Hardware and software</h4>
             </div>
 
             <div className={styles.box}>
-              <img src="/AI-assistant.jpg" alt="ai-assistant" />
+              <image src="/AI-assistant.jpg" alt="ai-assistant" />
               <h6>Ai-assistant</h6>
               <h4>Large language models</h4>
             </div>
@@ -245,7 +235,7 @@ export default function WebDesign() {
             </a>
           </div>
           <div className={styles.webAppsImg}>
-            <img src="/laptop.jpg" alt="laptop image" />
+            <image src="/laptop.jpg" alt="laptop image" />
           </div>
         </section>
 

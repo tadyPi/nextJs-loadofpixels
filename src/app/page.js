@@ -6,23 +6,8 @@ export default function Home() {
     <div>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* <link rel="icon" href="/favicon-busta.ico" /> */}
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-
-        {/* BoxIcons */}
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.0.7/css/boxicons.min.css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
-        />
-        {/* Remix Icons */}
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/2.5.0/remixicon.min.css"
-        />
+        <link rel="icon" href="/Icon-busta.ico" />
+        {/* <link rel="icon" href="/favicon.ico" sizes="any" /> */}
 
         {/* Google fonts */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -64,19 +49,13 @@ export default function Home() {
               Follow us
             </a>
             <div className={styles.iconTop1}>
-              <a href="https://www.linkedin.com/company/load-of-pixels">
-                <i class="ri-linkedin-fill"></i>
-              </a>
+              <a href="https://www.linkedin.com/company/load-of-pixels"></a>
             </div>
             <div className={styles.iconTop2}>
-              <a href="https://github.com/tadyPi">
-                <i class="ri-github-fill"></i>
-              </a>
+              <a href="https://github.com/tadyPi"></a>
             </div>
             <div className={styles.iconTop3}>
-              <a href="https://learn.microsoft.com/en-gb/users/harrydyson-8809/">
-                <i class="ri-twitter-fill"></i>
-              </a>
+              <a href="https://learn.microsoft.com/en-gb/users/harrydyson-8809/"></a>
             </div>
             <div className={styles.menu}></div>
           </div>
@@ -111,7 +90,7 @@ export default function Home() {
           <div className={styles.featureContent}>
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <img
+                <image
                   className={styles.webStack}
                   src="/Web-stack.png"
                   alt="HTML CSS and Javascript logos"
@@ -124,7 +103,7 @@ export default function Home() {
 
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <img
+                <image
                   className={styles.nodeJs}
                   src="/Node-js-transparent.png"
                   alt="Node.js logo"
@@ -137,7 +116,7 @@ export default function Home() {
 
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <img
+                <image
                   className={styles.VScode}
                   src="/VS-Code.png"
                   alt="Virtual Studio Code logo"
@@ -150,7 +129,7 @@ export default function Home() {
 
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <img
+                <image
                   className={styles.MongoDB}
                   src="/Mongo-db.png"
                   alt="Mongo DB logo"
@@ -163,7 +142,7 @@ export default function Home() {
 
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <img
+                <image
                   className={styles.Azure}
                   src="/Azure-LOGO.png"
                   alt="Microsoft Azure logo"
@@ -177,7 +156,7 @@ export default function Home() {
         </section>
 
         <div className={styles.firstImage}>
-          <img
+          <image
             src="/cloud.jpg"
             alt="cloud image"
             style={{ width: "100%", height: "200px" }}
@@ -187,7 +166,7 @@ export default function Home() {
         {/* web and cloud developer section */}
         <section className={styles.developerSection}>
           <div className={styles.developerImg}>
-            <img
+            <image
               src="/cloud.jpg"
               alt="Colourful wireframe image of Cloud technologies."
             />
@@ -219,7 +198,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* sevices section */}
+        {/* services section */}
         <section className={styles.tour}>
           <div className={styles.centerText}>
             <h2>Popular services</h2>
@@ -228,19 +207,19 @@ export default function Home() {
           {/* tour section */}
           <div className={styles.tourContent}>
             <div className={styles.box}>
-              <img src="/server.jpg" alt="Virtual-server" />
+              <image src="/server.jpg" alt="Virtual-server" />
               <h6>Cloud services</h6>
               <h4>AWS and Microsoft Azure</h4>
             </div>
 
             <div className={styles.box}>
-              <img src="/cloud-cpu.jpg" alt="laptop" />
+              <image src="/cloud-cpu.jpg" alt="laptop" />
               <h6>IT management</h6>
               <h4>Hardware and software</h4>
             </div>
 
             <div className={styles.box}>
-              <img src="/AI-assistant.jpg" alt="ai-assistant" />
+              <image src="/AI-assistant.jpg" alt="ai-assistant" />
               <h6>Ai-assistant</h6>
               <h4>Large language models</h4>
             </div>
@@ -254,20 +233,15 @@ export default function Home() {
         </section>
 
         <div className={styles.firstImage2}>
-          <img
-            src="/Mobile-app-wireframe.jpeg"
-            alt="Mobile-app-wireframe"
-            style={{ width: "100%", height: "200px" }}
-          />
+          <image src="/Mobile-app-wireframe.jpeg" alt="Mobile-app-wireframe" />
         </div>
 
         {/* UI/UX design and web apps section*/}
         <section className={styles.webAppsSection}>
           <div className={styles.webAppsImg}>
-            <img
+            <image
               src="/Mobile-app-wireframe.jpeg"
               alt="Mobile-app-wireframe"
-              style={{ width: "100%", height: "200px" }}
             />
           </div>
           <div className={styles.webAppsText}>
@@ -346,19 +320,13 @@ export default function Home() {
           <div className={styles.footerBox}>
             <h3>Social</h3>
             <div className={styles.icon1}>
-              <a href="https://www.linkedin.com">
-                <i class="ri-linkedin-fill"></i>
-              </a>
+              <a href="https://www.linkedin.com"></a>
             </div>
             <div className={styles.icon2}>
-              <a href="https://www.github.com">
-                <i class="ri-twitter-fill"></i>
-              </a>
+              <a href="https://www.github.com"></a>
             </div>
             <div className={styles.icon3}>
-              <a href="https://www.github.com">
-                <i class="ri-github-fill"></i>
-              </a>
+              <a href="https://www.github.com"></a>
             </div>
           </div>
         </section>

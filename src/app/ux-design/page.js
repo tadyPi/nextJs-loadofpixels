@@ -7,22 +7,17 @@ export default function uxDesign() {
     <div>
       <Head>
         <link rel="shortcut icon" href="/Icon-busta.png" type="image/x-icon" />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.0.7/css/boxicons.min.css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/2.5.0/remixicon.min.css"
-        />
+        <title>Load of pixels</title>
+
+        {/* Google fonts */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
           href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
           rel="stylesheet"
         />
       </Head>
@@ -84,7 +79,7 @@ export default function uxDesign() {
               <br />
               <br />I consistently apply foundational UX concepts such as
               user-centered design, ensuring that every experience is tailored
-              to users' unique needs.
+              to users unique needs.
             </p>
             <a href="/about-us" className={styles.homeButton}>
               Contact us
@@ -96,7 +91,7 @@ export default function uxDesign() {
           <div className={styles.featureContent}>
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <img
+                <image
                   className={styles.webStack}
                   src="/Web-stack.png"
                   alt="HTML CSS and Javascript logos"
@@ -109,7 +104,7 @@ export default function uxDesign() {
 
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <img
+                <image
                   className={styles.nodeJs}
                   src="/Node-js-transparent.png"
                   alt="Node.js logo"
@@ -122,7 +117,7 @@ export default function uxDesign() {
 
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <img
+                <image
                   className={styles.VScode}
                   src="/VS-Code.png"
                   alt="Virtual Studio Code logo"
@@ -135,7 +130,7 @@ export default function uxDesign() {
 
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <img
+                <image
                   className={styles.MongoDB}
                   src="/Mongo-db.png"
                   alt="Mongo DB logo"
@@ -148,7 +143,7 @@ export default function uxDesign() {
 
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <img
+                <image
                   className={styles.Azure}
                   src="/Azure-LOGO.png"
                   alt="Microsoft Azure logo"
@@ -163,7 +158,7 @@ export default function uxDesign() {
 
         <section className={styles.developerSection}>
           <div className={styles.developerImg}>
-            <img
+            <image
               // src="/Wireframe-DarkBlue.jpg"
               src="/Figma-vsCode-NextJs.png"
               alt="Figma logo, Next.js logo, VS code logo."
@@ -197,19 +192,19 @@ export default function uxDesign() {
 
           <div className={styles.tourContent}>
             <div className={styles.box}>
-              <img src="/server.jpg" alt="Virtual-server" />
+              <image src="/server.jpg" alt="Virtual-server" />
               <h6>Cloud services</h6>
               <h4>AWS Azure GCP</h4>
             </div>
 
             <div className={styles.box}>
-              <img src="/cloud-cpu.jpg" alt="laptop" />
+              <image src="/cloud-cpu.jpg" alt="laptop" />
               <h6>IT management</h6>
               <h4>Hardware and software</h4>
             </div>
 
             <div className={styles.box}>
-              <img src="/AI-assistant.jpg" alt="ai-assistant" />
+              <image src="/AI-assistant.jpg" alt="ai-assistant" />
               <h6>Ai-assistant</h6>
               <h4>Large language models</h4>
             </div>
@@ -228,7 +223,7 @@ export default function uxDesign() {
               Accessibility is a <br />
               core principle in my work
             </h5>
-            <h1>Design tailored to users' unique needs.</h1>
+            <h1>Design tailored to users unique needs.</h1>
             <p>
               Creating inclusive experiences that can be enjoyed by a diverse
               range of users.
@@ -243,7 +238,7 @@ export default function uxDesign() {
             </a>
           </div>
           <div className={styles.webAppsImg}>
-            <img src="/Accessibility-icons.png" alt="laptop image" />
+            <image src="/Accessibility-icons.png" alt="laptop image" />
           </div>
         </section>
 

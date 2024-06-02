@@ -7,22 +7,17 @@ export default function webDevelopment() {
     <div>
       <Head>
         <link rel="shortcut icon" href="/Icon-busta.png" type="image/x-icon" />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.0.7/css/boxicons.min.css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/2.5.0/remixicon.min.css"
-        />
+        <title>Load of pixels</title>
+
+        {/* Google fonts */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
           href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
           rel="stylesheet"
         />
       </Head>
@@ -54,19 +49,13 @@ export default function webDevelopment() {
               Follow us
             </a>
             <div className={styles.iconTop1}>
-              <a href="https://www.linkedin.com">
-                <i class="ri-linkedin-fill"></i>
-              </a>
+              <a href="https://www.linkedin.com"></a>
             </div>
             <div className={styles.iconTop2}>
-              <a href="https://www.github.com">
-                <i class="ri-twitter-fill"></i>
-              </a>
+              <a href="https://www.github.com"></a>
             </div>
             <div className={styles.iconTop3}>
-              <a href="https://learn.microsoft.com/en-gb/users/harrydyson-8809/">
-                <i class="ri-github-fill"></i>
-              </a>
+              <a href="https://learn.microsoft.com/en-gb/users/harrydyson-8809/"></a>
             </div>
             <div className={styles.menu}></div>
           </div>
@@ -100,7 +89,7 @@ export default function webDevelopment() {
           <div className={styles.featureContent}>
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <img
+                <image
                   className={styles.webStack}
                   src="/Web-stack.png"
                   alt="HTML CSS and Javascript logos"
@@ -113,7 +102,7 @@ export default function webDevelopment() {
 
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <img
+                <image
                   className={styles.nodeJs}
                   src="/Node-js-transparent.png"
                   alt="Node.js logo"
@@ -126,7 +115,7 @@ export default function webDevelopment() {
 
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <img
+                <image
                   className={styles.VScode}
                   src="/VS-Code.png"
                   alt="Virtual Studio Code logo"
@@ -139,7 +128,7 @@ export default function webDevelopment() {
 
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <img
+                <image
                   className={styles.MongoDB}
                   src="/Mongo-db.png"
                   alt="Mongo DB logo"
@@ -152,7 +141,7 @@ export default function webDevelopment() {
 
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <img
+                <image
                   className={styles.Azure}
                   src="/Azure-LOGO.png"
                   alt="Microsoft Azure logo"
@@ -167,7 +156,7 @@ export default function webDevelopment() {
 
         <section className={styles.developerSection}>
           <div className={styles.developerImg}>
-            <img
+            <image
               src="/cloud.jpg"
               alt="Colourful wireframe image of Cloud technologies."
             />
@@ -204,19 +193,19 @@ export default function webDevelopment() {
 
           <div className={styles.tourContent}>
             <div className={styles.box}>
-              <img src="/server.jpg" alt="Virtual-server" />
+              <image src="/server.jpg" alt="Virtual-server" />
               <h6>Cloud services</h6>
               <h4>AWS Azure GCP</h4>
             </div>
 
             <div className={styles.box}>
-              <img src="/cloud-cpu.jpg" alt="laptop" />
+              <image src="/cloud-cpu.jpg" alt="laptop" />
               <h6>IT management</h6>
               <h4>Hardware and software</h4>
             </div>
 
             <div className={styles.box}>
-              <img src="/AI-assistant.jpg" alt="ai-assistant" />
+              <image src="/AI-assistant.jpg" alt="ai-assistant" />
               <h6>Ai-assistant</h6>
               <h4>Large language models</h4>
             </div>
@@ -250,7 +239,7 @@ export default function webDevelopment() {
             </a>
           </div>
           <div className={styles.webAppsImg}>
-            <img src="/VS-code-Figma.png" alt="laptop image" />
+            <image src="/VS-code-Figma.png" alt="laptop image" />
           </div>
         </section>
 
@@ -303,19 +292,13 @@ export default function webDevelopment() {
           <div className={styles.footerBox}>
             <h3>Social</h3>
             <div className={styles.icon1}>
-              <a href="https://www.linkedin.com">
-                <i class="ri-linkedin-fill"></i>
-              </a>
+              <a href="https://www.linkedin.com"></a>
             </div>
             <div className={styles.icon2}>
-              <a href="https://www.github.com">
-                <i class="ri-twitter-fill"></i>
-              </a>
+              <a href="https://www.github.com"></a>
             </div>
             <div className={styles.icon3}>
-              <a href="https://www.github.com">
-                <i class="ri-github-fill"></i>
-              </a>
+              <a href="https://www.github.com"></a>
             </div>
           </div>
         </section>

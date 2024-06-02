@@ -521,9 +521,9 @@
   position: relative;
   width: 90%;
   height: 600px;
+  border: 1px solid #5c5f5f;
   margin-left: 3%;
   border-radius: 3px;
-  border: 1px solid #5c5f5f;
 }
 
 .webAppsText {
@@ -1101,7 +1101,7 @@
   }
 
 
-  /* foooter content section */
+  /* footer content section */
   .footer {
     position: relative;
     display: grid;
