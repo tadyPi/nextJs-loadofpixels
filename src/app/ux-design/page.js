@@ -91,7 +91,7 @@ export default function uxDesign() {
           <div className={styles.featureContent}>
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <image
+                <img
                   className={styles.webStack}
                   src="/Web-stack.png"
                   alt="HTML CSS and Javascript logos"
@@ -104,7 +104,7 @@ export default function uxDesign() {
 
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <image
+                <img
                   className={styles.nodeJs}
                   src="/Node-js-transparent.png"
                   alt="Node.js logo"
@@ -117,7 +117,7 @@ export default function uxDesign() {
 
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <image
+                <img
                   className={styles.VScode}
                   src="/VS-Code.png"
                   alt="Virtual Studio Code logo"
@@ -130,7 +130,7 @@ export default function uxDesign() {
 
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <image
+                <img
                   className={styles.MongoDB}
                   src="/Mongo-db.png"
                   alt="Mongo DB logo"
@@ -143,7 +143,7 @@ export default function uxDesign() {
 
             <div className={styles.row}>
               <div className={styles.rowImg}>
-                <image
+                <img
                   className={styles.Azure}
                   src="/Azure-LOGO.png"
                   alt="Microsoft Azure logo"
@@ -158,7 +158,7 @@ export default function uxDesign() {
 
         <section className={styles.developerSection}>
           <div className={styles.developerImg}>
-            <image
+            <img
               // src="/Wireframe-DarkBlue.jpg"
               src="/Figma-vsCode-NextJs.png"
               alt="Figma logo, Next.js logo, VS code logo."
@@ -192,19 +192,19 @@ export default function uxDesign() {
 
           <div className={styles.tourContent}>
             <div className={styles.box}>
-              <image src="/server.jpg" alt="Virtual-server" />
+              <img src="/server.jpg" alt="Virtual-server" />
               <h6>Cloud services</h6>
               <h4>AWS Azure GCP</h4>
             </div>
 
             <div className={styles.box}>
-              <image src="/cloud-cpu.jpg" alt="laptop" />
+              <img src="/cloud-cpu.jpg" alt="laptop" />
               <h6>IT management</h6>
               <h4>Hardware and software</h4>
             </div>
 
             <div className={styles.box}>
-              <image src="/AI-assistant.jpg" alt="ai-assistant" />
+              <img src="/AI-assistant.jpg" alt="ai-assistant" />
               <h6>Ai-assistant</h6>
               <h4>Large language models</h4>
             </div>
@@ -238,7 +238,7 @@ export default function uxDesign() {
             </a>
           </div>
           <div className={styles.webAppsImg}>
-            <image src="/Accessibility-icons.png" alt="laptop image" />
+            <img src="/Accessibility-icons.png" alt="laptop image" />
           </div>
         </section>
 
