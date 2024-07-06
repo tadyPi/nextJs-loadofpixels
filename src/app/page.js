@@ -57,8 +57,8 @@ export default function Home() {
             <div className={styles.iconTop3}>
               <a href="https://learn.microsoft.com/en-gb/users/harrydyson-8809/"></a>
             </div>
-            <div className={styles.menu}></div>
           </div>
+          <div className={styles.menu}></div>
         </header>
 
         {/* Home section */}
@@ -251,9 +251,8 @@ export default function Home() {
               <br /> and web design
             </h5>
             <h1>
-              We design and
-              <br /> develop custom
-              <br /> web apps.
+              We design and develop
+              <br /> custom web apps.
             </h1>
             <p>
               Our approach to web design is characterized by a dynamic fusion of
